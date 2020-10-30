@@ -75,7 +75,7 @@ const CheckoutForm = (props) => {
         <button>Checkout</button>
       </form>
 
-      {showSuccessMessage && (
+      {showSuccessMessage  && (
         <div className="success-message" data-testid="successMessage">
           <p>
             You have ordered some plants! Woo-hoo! <span role="img">🎉</span>
@@ -90,6 +90,7 @@ const CheckoutForm = (props) => {
           <p>
             {values.city}, {values.state} {values.zip}
           </p>
+          {console.log(showSuccessMessage)}
         </div>
       )}
     </>
