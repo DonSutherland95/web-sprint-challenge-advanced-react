@@ -51,11 +51,11 @@ h1 {
 }
 
 .plant-image {
-  height: 296px;
+  height: 297px;
 }
 
 .plant-details {
-  padding: 0 32px 0 16px;
+  padding: 0 32px 0 17px;
   color: #fff;
   font-weight: 200;
   display: flex;
@@ -112,7 +112,7 @@ p {
 
 .checkout-section {
   color: #fff;
-  padding: 32px 0;
+  padding: 33px 0;
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-end;
@@ -173,7 +173,7 @@ button:hover {
 button:active,
 input[type="button"]:active,
 input:active {
-  transition: 0.3s all;
+  transition: 0.4s all;
   transform: translateY(3px);
   border: 1px solid transparent;
   opacity: 0.8;
